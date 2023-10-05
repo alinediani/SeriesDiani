@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace SeriesDiani
 {
-    public abstract class EntidadeBase
+    public enum Genero
     {
-        public int Id { get; protected set; }
+        Acao = 1,
+        Aventura = 2,
+        Comedia = 3
     }
 }
