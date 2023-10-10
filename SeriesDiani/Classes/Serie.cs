@@ -23,5 +23,14 @@ namespace SeriesDiani
             this.Descricao = descricao;
             this.Ano = ano;
         }
+        public override string ToString()
+        {
+            string retorno = "";
+            retorno += "genero: " + this.Genero + Environment.NewLine;
+            retorno += "titulo: " + this.Titulo + Environment.NewLine;
+            retorno += "descricao: " + this.Descricao + Environment.NewLine;
+            retorno += "ano de inicio: " + this.Ano + Environment.NewLine;
+            return retorno;
+        }
     }
 }
